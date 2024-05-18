@@ -1,0 +1,37 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 8px;
+    background-color: black;
+    height: 100vh;
+    width: 100vh;
+    border: 8px transparent black;
+}
+.one{
+    background-color: white;
+
+}
+.two{
+    background-color: red;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.three{
+    background-color: white;
+    grid-row: span;
+}
+.four{
+    background-color: blue;
+}
+.five{
+    background-color: white;
+    grid-column: span 2;
+}
+.six{
+    background-color: white;
+}
+.seven{
+    background-color: yellow;
+    grid-column: span 2;
+}
