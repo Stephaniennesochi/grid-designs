@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-five</title>
+    <style>
+        .grid-container{
+            display: grid ;
+            grid-template-columns: 150px 150px 150px 20px;
+            grid-template-rows: 170px 170px 170px 20px;
+            background-color: black;
+            gap: 10px;
+            height: 500px;
+            width: 500px;
+        }
+        .one{
+            background-color: #FF0000;
+        }
+        .two{
+            background-color: #EADBC8;
+            grid-column: span 3;
+
+        }
+        .three{
+            background-color: #EADBC8;
+            grid-row: span 3;
+        }
+        .four{
+            background-color: #EADBC8;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .five{
+            background-color: blue;
+        }
+        .six{
+            background-color:#EADBC8;
+            grid-row: span 2;
+        }
+        .seven{
+            background-color: yellow;
+        }
+        .eight{
+            background-color:#322C2B;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="entity one"></div>
+        <div class="entity two"></div>
+        <div class="entity three"></div>
+        <div class="entity four"></div>
+        <div class="entity five"></div>
+        <div class="entity six"></div>
+        <div class="entity seven"></div>
+        <div class="entity eight"></div>
+    </div> 
+</body>
+</html>
