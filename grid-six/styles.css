@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 250px 250px 100px  ;
+    grid-template-rows: 150px 100px 100px 150px ;
+    gap: 14px;
+    background-color: black;
+    height: 378px;
+    width: 627px;
+}
+.one{
+    background-color: #EEEEEE;
+}
+.two{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+}
+.three{
+    background-color: #A91D3A;
+    grid-row: span 2;
+}
+.four{
+    background-color: #EEEEEE;
+    grid-row: span 2;
+}
+.five{
+    background-color: #10439F;
+}
+.six{
+    background-color: #EEEEEE;
+}
