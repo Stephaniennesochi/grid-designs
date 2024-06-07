@@ -1,11 +1,11 @@
 .grid-container{
     display: grid;
-    grid-template-columns: 30px 50px 50px 40px 60px 40px 40px 20px 20px 70px 40px ;
-    grid-template-rows: 20px 20px 20px 20px 20px 40px 40px 40px 40px 50px ;
+    grid-template-columns: 30px 50px 30px 30px 60px 40px 40px 25px 25px 30px 30px ;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px ;
     gap: 3px;
     background-color:#524C42;
-    height: 500px;
-    width: 500px;
+    height: 230px;
+    width: 423px;
 }
 .one{
     background-color: #ffffff;
@@ -91,10 +91,94 @@
     grid-column: span 2;
 }
 .twoone{
-    background-color: black;
-    grid-row: span 2;
+    
+
 }
 .twotwo{
     background-color: #ffffff;
+    grid-row: span 3;
+}
+.twothree{
+    background-color: black;
     grid-row: span 2;
+}
+.twofour{
+    background-color: #ffffff;
+}
+.twofive{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.twosix{
+    background-color: #ffffff;
+    grid-row: span 2;
+}
+.twoseven{
+    background-color: #ffffff;
+    grid-row: span 2;
+}
+.twoeight{
+    background-color: #83B4FF;
+    grid-column: span 3;
+    grid-row: span 4;
+}
+.twonine{
+    background-color: #FFDB00;
+    grid-row: span 3;
+}
+.thirty{
+    background-color: #ffffff;
+}
+.threeone{
+    background-color: #83B4FF;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.threetwo{
+    background-color:#ffffff ;
+    grid-row: span 2;
+    
+}
+.threethree{
+    background-color: black;
+}
+.threefour{
+    background-color: #FFDB00;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.threefive{
+    background-color:#ffffff ;
+    grid-row: span 2;
+    
+}
+.threesix{
+    background-color: #FFDB00;
+    grid-row: span 2;
+}
+.threeseven{
+    background-color: #ffffff;
+    grid-row: span 2;
+}
+.threeeight{
+    background-color: #FF0000;
+    grid-row: span 2;
+}
+.threenine{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.fourty{
+    background-color: #ffffff;
+}
+.fourone{
+    background-color: black;
+}
+.fourtwo{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.fourthree{
+    background-color: #ffffff;
+    grid-column: span 2;
 }
