@@ -1,0 +1,100 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 30px 50px 50px 40px 60px 40px 40px 20px 20px 70px 40px ;
+    grid-template-rows: 20px 20px 20px 20px 20px 40px 40px 40px 40px 50px ;
+    gap: 3px;
+    background-color:#524C42;
+    height: 500px;
+    width: 500px;
+}
+.one{
+    background-color: #ffffff;
+}
+.two{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.three{
+    background-color: #FFDB00;
+    grid-column: span 2;
+}
+.four{
+    background-color:#83B4FF ;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.five{
+    background-color: #FFDB00;
+}
+.six{
+    background-color: black;
+}
+.seven{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.eight{
+    background-color: #ffffff;
+    grid-row: span 2;
+}
+.nine{
+    background-color: #FF0000;
+    grid-column: span 3;
+    grid-row: span 4;
+}
+.ten{
+    background-color: #FFDB00;
+   
+    grid-row: span 2;
+}
+.eleven{
+    background-color:#FFDB00 ;
+    grid-column: span 2;
+}
+.twelve{
+    background-color: #ffffff;
+    grid-row: span 2;
+    
+}
+.thirteen{
+    background-color: #FFDB00;
+    grid-row: span 3;
+}
+.fourteen{
+    background-color: #FF0000;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.fifteen{
+    background-color: black;
+    grid-column: span 2;
+}
+.sixteen{
+    background-color: #ffffff;
+    grid-row: span 3;
+}
+.seventeen{
+    background-color: #ffffff;
+    grid-row: span 2;
+    
+}
+.eighteen{
+    background-color: #ffffff;
+    grid-column: span 2;   
+}
+.nineteen{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.twenty{
+    background-color: #ffffff;
+    grid-column: span 2;
+}
+.twoone{
+    background-color: black;
+    grid-row: span 2;
+}
+.twotwo{
+    background-color: #ffffff;
+    grid-row: span 2;
+}
