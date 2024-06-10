@@ -3,9 +3,9 @@
     display: grid;
     grid-template-columns: 30px 100px 100px 60px ;
     grid-template-rows: 30px 100px 100px 50px 50px 25px 25px;
-    gap: 10px;
-    height: 440px;
-    width: 320px;
+    gap: 6px;
+    height: 415px;
+    width: 307px;
 }
 .one{
     background-color:#EEEEEE ;

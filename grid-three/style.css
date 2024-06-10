@@ -1,11 +1,11 @@
 .grid-container{
     display: grid;
-    grid-template-columns: 80px 150px 150px 150px ;
+    grid-template-columns: 80px 100px 100px 100px ;
     grid-template-rows: 0.5fr 0.2fr 0.3fr 0.07fr;
-    gap: 7px;
+    gap: 5px;
     background-color: #322C2B;
-    height: 650px;
-    width: 557px;
+    height: 350px;
+    width: 400px;
 }
 .one{
     background-color:#FF9F66 ;
