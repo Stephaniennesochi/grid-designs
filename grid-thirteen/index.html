@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 35px 90px 50px 100px;
+            grid-template-rows: 70px 100px 150px 10px 50px;
+            background-color: rgb(59, 55, 55);
+            gap: 7px;
+            width: 298px;
+            height: 410px;
+        }
+        .one{
+            background-color: #FF0000;
+            grid-column: span 3;
+        }
+        .two{
+            background-color: #ffffff;
+        }
+        .three{
+            background-color: #ffffff;
+            grid-row: span 3;
+            grid-column: span 3;
+        }
+        .four{
+            background-color: #EEEEEE;
+            grid-row: span 2;
+        }
+        .five{
+            background-color:#050C9C ;
+            grid-row: span 2;
+        }
+        .six{
+            background-color: #FFDB00;
+        }
+        .seven{
+            background-color: #ffffff;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class=" one"></div>
+        <div class=" two"></div>
+        <div class=" three"></div>
+        <div class=" four"></div>
+        <div class=" five"></div>
+        <div class=" six"></div>
+        <div class=" seven"></div>
+        <div class=" eight"></div>
+        <div class=" nine"></div>
+        <div class=" ten"></div>
+        <div class=" eleven"></div>
+        <div class=" twelve"></div>
+    </div>
+</body>
+</html>
