@@ -2,10 +2,10 @@
     display: grid;
     grid-template-columns: 30px 40px 40px 80px 30px 60px 30px 30px;
     grid-template-rows: 100px 100px 50px 50px;
-    gap: 8px;
+    gap: 7px;
     background-color: black;
-    width: 395px;
-    height: 324px;
+    width: 389px;
+    height: 321px;
 }
 .one{
     background-color: #ffffff;
